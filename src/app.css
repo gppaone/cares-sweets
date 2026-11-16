@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Brand palette */
+	--color-lilac: #cdb4db;
+	--color-blush: #ffc8dd;
+	--color-bubblegum: #ffafcc;
+	--color-powder: #bde0fe;
+	--color-sky: #a2d2ff;
+	/* Text colors (dark enough to read on every pastel above) */
+	--color-ink: #2b1f24;
+	--color-ink-soft: #5b4a52;
+
+	--font-display: 'Rokkitt', Georgia, serif;
+	--font-script: 'Yellowtail', cursive;
+	--font-body: 'Nunito', system-ui, sans-serif;
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+	body {
+		@apply bg-white font-body text-ink antialiased;
+	}
+	:focus-visible {
+		outline: 3px solid var(--color-ink);
+		outline-offset: 2px;
+	}
+	@media (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
+	}
+}
+
+@layer components {
+	.btn {
+		@apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-ink px-5 py-2.5 font-extrabold text-ink shadow-[3px_3px_0_0_var(--color-ink)] transition hover:-translate-y-0.5 hover:shadow-[4px_5px_0_0_var(--color-ink)] active:translate-y-0 active:shadow-[1px_1px_0_0_var(--color-ink)];
+	}
+	.btn-pink {
+		@apply bg-bubblegum hover:bg-blush;
+	}
+	.btn-blue {
+		@apply bg-sky hover:bg-powder;
+	}
+	.btn-ghost {
+		@apply bg-white hover:bg-blush;
+	}
+	.btn-danger {
+		@apply border-red-700 bg-white text-red-700 shadow-none hover:bg-red-50 hover:shadow-none;
+	}
+	.input {
+		@apply w-full rounded-xl border-2 border-ink/30 bg-white px-3 py-2 text-base text-ink placeholder:text-ink/40 focus:border-ink focus:outline-none;
+	}
+	.label {
+		@apply mb-1 block text-sm font-bold;
+	}
+	.card {
+		@apply rounded-3xl border-2 border-ink bg-white p-5 shadow-[4px_4px_0_0_var(--color-bubblegum)];
+	}
+}

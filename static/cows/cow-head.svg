@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 12 152 128" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Cartoon cow"><defs>
+<clipPath id="c-face"><ellipse cx="100" cy="78" rx="46" ry="40"/></clipPath>
+<clipPath id="c-body"><ellipse cx="100" cy="160" rx="52" ry="46"/></clipPath>
+</defs>
+<ellipse cx="54" cy="70" rx="20" ry="11" transform="rotate(-20 54 70)" fill="#ffafcc" stroke="#2b1f24" stroke-width="3"/>
+<ellipse cx="146" cy="70" rx="20" ry="11" transform="rotate(20 146 70)" fill="#ffafcc" stroke="#2b1f24" stroke-width="3"/>
+<path d="M80 44 Q70 22 88 26 Q93 36 91 46Z" fill="#fff1c9" stroke="#2b1f24" stroke-width="3"/>
+<path d="M120 44 Q130 22 112 26 Q107 36 109 46Z" fill="#fff1c9" stroke="#2b1f24" stroke-width="3"/>
+<ellipse cx="100" cy="78" rx="46" ry="40" fill="#fff"/>
+<g clip-path="url(#c-face)"><path d="M48 80 C44 44 86 38 94 62 C98 80 70 92 48 80Z" fill="#2b1f24"/></g>
+<ellipse cx="100" cy="78" rx="46" ry="40" fill="none" stroke="#2b1f24" stroke-width="3"/>
+<path d="M91 41 Q100 24 109 41Z" fill="#2b1f24"/>
+<circle cx="82" cy="76" r="9.5" fill="#fff" stroke="#2b1f24" stroke-width="2.5"/>
+<circle cx="118" cy="76" r="9.5" fill="#fff" stroke="#2b1f24" stroke-width="2.5"/>
+<circle cx="83" cy="77" r="5.2" fill="#2b1f24"/>
+<circle cx="117" cy="77" r="5.2" fill="#2b1f24"/>
+<circle cx="85" cy="74.5" r="1.9" fill="#fff"/>
+<circle cx="119" cy="74.5" r="1.9" fill="#fff"/>
+<circle cx="63" cy="95" r="6" fill="#ffc8dd" opacity="0.9"/>
+<circle cx="137" cy="95" r="6" fill="#ffc8dd" opacity="0.9"/>
+<ellipse cx="100" cy="97" rx="26" ry="17" fill="#ffafcc" stroke="#2b1f24" stroke-width="3"/>
+<ellipse cx="91" cy="93" rx="3" ry="4.5" fill="#2b1f24" opacity="0.75"/>
+<ellipse cx="109" cy="93" rx="3" ry="4.5" fill="#2b1f24" opacity="0.75"/>
+<path d="M90 104 Q100 112 110 104" fill="none" stroke="#2b1f24" stroke-width="2.5"/></svg>
